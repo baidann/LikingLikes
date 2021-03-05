@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.post{
+    width: 300px;
+    outline: black solid 2px;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 15px;
+}
+.top{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.likes{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.likes button{
+    outline:  black solid 1px;
+    background-color: #ffd966;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 3px 3px;
+}
